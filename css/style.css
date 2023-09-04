@@ -55,7 +55,7 @@ section > p {
     margin-bottom: 20px;
 }
 
-span {
+p > span {
     background-color: #FFFF00;
 }
 
@@ -70,6 +70,7 @@ table {
     margin-bottom: 15px;
     table-layout: fixed;
     font-size: 20px;
+    border-spacing: 0;
 }
 
 thead {
