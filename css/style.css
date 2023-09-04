@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+#header-iniziale {
     height: 176px;
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
@@ -17,3 +17,34 @@ header {
     left: 10px;
 }
 
+main, aside {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.written-by {
+    margin-bottom: 20px;
+}
+
+#testata-giornalistica { 
+    color: #92D5F2;
+}
+
+.color-grey {
+    color: #B4B4B4;
+}
+
+#first-photo {
+    width: 900px;
+}
+
+#second-photo {
+    width: 770px;
+}
+
+figure {
+    margin-bottom: 15px;
+}

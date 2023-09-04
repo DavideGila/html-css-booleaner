@@ -8,28 +8,31 @@
 </head>
 
 <body>
-    <header>
+    <header id="header-iniziale">
         <!-- Sfondo e logo -->
-        <img src="img/logo.svg" alt="logo-testata-giornalistica" id="logo">
+        <img src="img/logo.svg" alt="logo testata giornalistica" id="logo">
     </header>
 
     <main>
         <!-- Intestazione -->
-        <section>
+        <header>
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
 
-            <p>Scritto da <a href="">The Booleaner</a></p> 
-            <p>il 10/10/2020</p>
+            <div class="written-by">
+                <h2 class="color-grey">Scritto da <span id="testata-giornalistica"><strong>The Booleaner</strong></span></h2> 
+                <p class="color-grey"><strong>il 10/10/2020</strong></p>
+            </div>
+            
 
             <!-- Immagini di Tim Berners-Lee -->
             <figure>
-                <img src="img/tim-1.jpg" alt="tim-berners-lee-1">
-                <img src="img/tim-2.jpg" alt="tim-berners-lee-2">
+                <img src="img/tim-1.jpg" alt="tim berners lee 1" id="first-photo">
+                <img src="img/tim-2.jpg" alt="tim berners lee 2" id="second-photo">
                 <figcaption>1st Photo: John S. and James L.Knight Foundation, by Scott Henrichsen <br>
                 2nd Photo: Wikimedia, by Paul Clarke
                 </figcaption>
             </figure>
-        </section>
+        </header>
 
         <!-- Inizio dell'articolo -->
         <section>
@@ -78,7 +81,7 @@
 
     <!-- Altri articolo interessanti -->
     <aside>
-        <h2>Potrebbero interessarti</h2>
+        <h2 class="color-grey">Potrebbero interessarti</h2>
         <!-- Primo articolo -->
         <div>
             <img src="img/monitor.jpg" alt="articolo-monitor">
