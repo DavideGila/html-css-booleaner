@@ -1,0 +1,19 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 176px;
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+}
+
+#logo {
+    position: relative;
+    width: 297px;
+    top: 85px;
+    left: 10px;
+}
+
